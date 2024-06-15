@@ -211,8 +211,7 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
+[type="submit"] 
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -230,8 +229,7 @@ input[type="checkbox"] {
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox; }
+input[type="month"] 
 
 textarea {
   overflow: auto;
@@ -262,8 +260,7 @@ progress {
   height: auto; }
 
 [type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none; }
+  outline-offset: -2px; }
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -8841,10 +8838,6 @@ h1, h2, h3, h4, h5,
   -moz-perspective: 1000;
   -ms-perspective: 1000;
   perspective: 1000;
-  -ms-transform: perspective(1000px);
-  -moz-transform: perspective(1000px);
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
   margin-bottom: 30px; }
   @media (max-width: 991.98px) {
     .block-2 {
@@ -8868,7 +8861,6 @@ h1, h2, h3, h4, h5,
     -webkit-transform-style: preserve-3d;
     -ms-transition: 0.3s;
     -moz-transition: 0.3s;
-    -moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     -webkit-transition: 0.6s;
@@ -8901,8 +8893,6 @@ h1, h2, h3, h4, h5,
     top: 0;
     left: 0; }
   .block-2 .front {
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
     background: lightgreen;
     z-index: 2;
     background-size: cover;
@@ -9370,7 +9360,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
