@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/7f6ab7ba00f6427f0ed9/maintainability)](https://codeclimate.com/github/Antuan555/line-/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7f6ab7ba00f6427f0ed9/test_coverage)](https://codeclimate.com/github/Antuan555/line-/test_coverage)
 # Строительная компания LineKran
 Веб-проект направленный на создание компании-застройщика.
 
